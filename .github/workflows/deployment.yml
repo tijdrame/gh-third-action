@@ -1,4 +1,4 @@
-name: Lint Test and Deploy
+name: Install Lint Test and Deploy
 on: push
 jobs:   
   deploy:
