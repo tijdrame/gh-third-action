@@ -11,7 +11,7 @@ jobs:
       - name: test
         run: npm test
   deploy:
-    needs: test
+    needs: lint
     runs-on: ubuntu-latest
     steps:
       - name: Get code
